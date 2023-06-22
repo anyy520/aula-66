@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#app {
+    background-color: rgb(7, 93, 168); /*  ajusta a cor de fundo de um elemento  */
+}
+
+#game{
+    background-color:rgb(240, 128, 210);/*  ajusta a cor de fundo de um elemento  */
+}
+
+.line {                           /*  propriedade para criar uma linha  */
+    height: 6px;                    /* concederá a altura de 6px;   */
+    background-color: #000;        /*  cor de fundo preto  */
+    width: 70px;                     /* largura   */
+    margin: 8px auto;               /*  significa que será concedida uma margem de 8px
+                                      acima e abaixo. E auto margin à esquerda e à direita, ou seja, 
+                                                 ficará alinhada no centro da página.  */
+}
